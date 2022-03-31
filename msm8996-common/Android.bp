@@ -392,6 +392,24 @@ dex_import {
 }
 
 dex_import {
+	name: "cneapiclient",
+	owner: "lge",
+	jars: ["proprietary/framework/cneapiclient.jar"],
+}
+
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "lge",
+	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+dex_import {
+	name: "com.quicinc.cne",
+	owner: "lge",
+	jars: ["proprietary/framework/com.quicinc.cne.jar"],
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "lge",
 	jars: ["proprietary/framework/qcrilhook.jar"],
@@ -401,5 +419,12 @@ dex_import {
 	name: "qti-telephony-common",
 	owner: "lge",
 	jars: ["proprietary/framework/qti-telephony-common.jar"],
+}
+
+dex_import {
+	name: "qti-vzw-ims-internal",
+	owner: "lge",
+	jars: ["proprietary/vendor/framework/qti-vzw-ims-internal.jar"],
+	soc_specific: true,
 }
 
