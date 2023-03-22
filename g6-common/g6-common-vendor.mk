@@ -6,42 +6,17 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/g6-common
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.bootproperty-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.bootproperty-V1.0-java.jar \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.configstore-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.configstore-V1.0-java.jar \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.platform-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.platform-V1.0-java.jar \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.platform-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.platform-V1.1-java.jar \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.property-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.property-V1.0-java.jar \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.property-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.property-V1.1-java.jar \
-    vendor/lge/g6-common/proprietary/framework/vendor.lge.hardware.property-V1.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.property-V1.2-java.jar \
     vendor/lge/g6-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/lge/g6-common/proprietary/lib/libdovi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdovi.so \
     vendor/lge/g6-common/proprietary/lib/libmmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmi.so \
     vendor/lge/g6-common/proprietary/lib/libmmi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmi_jni.so \
     vendor/lge/g6-common/proprietary/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdsprpc_system.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.bootproperty@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.bootproperty@1.0.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.configstore@1.0.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.platform@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.platform@1.0.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.platform@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.platform@1.1.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.property@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.property@1.0.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.property@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.property@1.1.so \
-    vendor/lge/g6-common/proprietary/lib/vendor.lge.hardware.property@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.property@1.2.so \
     vendor/lge/g6-common/proprietary/lib64/libdovi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdovi.so \
     vendor/lge/g6-common/proprietary/lib64/libmmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmi.so \
     vendor/lge/g6-common/proprietary/lib64/libmmi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmi_jni.so \
     vendor/lge/g6-common/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.bootproperty@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.bootproperty@1.0.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.configstore@1.0.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.platform@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.platform@1.0.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.platform@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.platform@1.1.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.property@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.property@1.0.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.property@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.property@1.1.so \
-    vendor/lge/g6-common/proprietary/lib64/vendor.lge.hardware.property@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.property@1.2.so \
     vendor/lge/g6-common/proprietary/product/etc/camera_config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/camera_config.xml \
     vendor/lge/g6-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.bootproperty@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.bootproperty@1.0-service \
-    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.configstore@1.0-service \
-    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.platform@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.platform@1.1-service \
-    vendor/lge/g6-common/proprietary/vendor/bin/hw/vendor.lge.hardware.property@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.property@1.2-service \
     vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -137,11 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/smartcam/94_smartcam_basic_04.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartcam/94_smartcam_basic_04.dat \
     vendor/lge/g6-common/proprietary/vendor/etc/camera/smartcam/9_smartcam_food.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartcam/9_smartcam_food.dat \
     vendor/lge/g6-common/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
-    vendor/lge/g6-common/proprietary/vendor/etc/init/init.lge.bootproperty_trigger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.lge.bootproperty_trigger.rc \
-    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc \
-    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.configstore@1.0-service.rc \
-    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.platform@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.platform@1.1-service.rc \
-    vendor/lge/g6-common/proprietary/vendor/etc/init/vendor.lge.hardware.property@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.property@1.2-service.rc \
     vendor/lge/g6-common/proprietary/vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/g6-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lge/g6-common/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
@@ -156,8 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lge/g6-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/lge/g6-common/proprietary/vendor/lib/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/hw/vendor.lge.hardware.property@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.property@1.2-impl.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libSJFingerDetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJFingerDetect.so \
@@ -681,8 +649,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/lge/g6-common/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
-    vendor/lge/g6-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so \
-    vendor/lge/g6-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.property@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.property@1.2-impl.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
@@ -692,12 +658,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/lge/g6-common/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
-    vendor/lge/g6-common/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-		vendor/lge/g6-common/proprietary/vendor/bin/hw/android.hardware.power@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.2-service \
-    vendor/lge/g6-common/proprietary/vendor/etc/init/android.hardware.power@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power@1.2-service.rc \
-    vendor/lge/g6-common/proprietary/vendor/lib/hw/power.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.msm8996.so \
-    vendor/lge/g6-common/proprietary/vendor/lib64/hw/power.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.msm8996.so
-
+    vendor/lge/g6-common/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so 
 
 PRODUCT_PACKAGES += \
     DolbyVisionService
